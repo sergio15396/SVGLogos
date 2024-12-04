@@ -1,0 +1,29 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.logo-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.logo-box img {
+    max-width: 90%;
+    max-height: 90%;
+}
